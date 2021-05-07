@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  background-color: #121212;
+  color: #c8c8c8;
+  font-family: "IBM Plex Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.1px;
+}
+
+.nav {
+  text-align: center;
+  position: static;
+  top: 1em;
+  width: 100%;
+  height: 64px;
+  font-size: 1.2em;
+}
+
+.nav a {
+  color: #c8c8c8;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.nav a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav a.most {
+  text-decoration: underline;
+}
+
+.fo {
+  margin: 0 0 0 1em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fo h1, .fo h2 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.fo h1 {
+  font-size: 10vw;
+}
+
+.fo h2 {
+  font-size: 5vw;
+}
+
+.p, .z, .k {
+  transition: 250ms;
+}
+
+.p:hover {
+  color: #F7707E;
+}
+
+.z:hover {
+  color: #7bfa8c;
+}
+
+.k:hover {
+  color: #1ea4eb;
+}
+
+.szegely {
+  border: 2px solid #232323;
+}
+
+.feher-szegely {
+  border: 2px solid #fff;
+}
+
+.kontener {
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+  color: #c8c8c8;
+}
+
+.kozep {
+  text-align: center;
+}
+
+.kontener p, .kontener div {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.kontener a {
+  color: #1ea4eb;
+}
+
+.kontener a:hover {
+  color: #1d92d1;
+}
+
+.kontener img {
+  margin: 1em;
+}
